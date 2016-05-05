@@ -4,17 +4,8 @@
 work with any existing JSON-based configuration, serving values based on object path (`'/a/b/c'` translates to ``a.b.c``). In addition,
 **confidence** defines special $-prefixed keys used to filter values for a given criteria.
 
-[![Build Status](https://travis-ci.org/hapijs/confidence.svg?branch=master)](https://travis-ci.org/hapijs/confidence)
+## This is a stripped-down version of the original lib without Id and dependency to Boom.
 
-Lead Maintainer: [Patrick Kettner](https://github.com/patrickkettner)
-
-- [Example](#example)
-- [Document Format](#document-format)
-    - [Basic Structure](#basic-structure)
-    - [Filters](#filters)
-    - [Ranges](#ranges)
-    - [Metadata](#metadata)
-- [API](#api)
 
 # Example
 

@@ -10,12 +10,9 @@
     "configuration",
     "api"
   ],
-  "engines": {
-    "node": ">=4.0.0"
-  },
+
   "dependencies": {
     "alce": "1.x.x",
-    "boom": "3.x.x",
     "hoek": "3.x.x",
     "yargs": "3.x.x"
   },
