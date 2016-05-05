@@ -4,7 +4,7 @@
 work with any existing JSON-based configuration, serving values based on object path (`'/a/b/c'` translates to ``a.b.c``). In addition,
 **confidence** defines special $-prefixed keys used to filter values for a given criteria.
 
-## This is a stripped-down version of the original lib without Id and dependency to Boom.
+## This is a stripped-down version of the original lib exposing Confidence.Store alone without any dependencies (Hoek/Boom).
 
 
 # Example
