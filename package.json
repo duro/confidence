@@ -10,18 +10,9 @@
     "configuration",
     "api"
   ],
-
-  "dependencies": {
-    "alce": "1.x.x",
-    "hoek": "3.x.x",
-    "yargs": "3.x.x"
-  },
   "devDependencies": {
     "code": "2.x.x",
     "lab": "8.x.x"
-  },
-  "bin": {
-    "confidence": "bin/confidence"
   },
   "scripts": {
     "test": "lab -r console -t 100 -a code -L",
